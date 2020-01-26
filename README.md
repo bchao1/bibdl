@@ -1,6 +1,8 @@
 # bibdl
 > Automatically generate BibTeX style references for ml/dl papers.
 
+![demo](./assets/demo.gif)
+
 ## Installation
 > Build locally. You can easily customize the code.
 ```
