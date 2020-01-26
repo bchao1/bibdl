@@ -1,0 +1,96 @@
+A Survey on Transfer Learning
+Transfer Learning for Reinforcement Learning Domains: A Survey
+A Survey of transfer learning
+Domain Adaptation for Visual Applications: A Comprehensive Survey
+Deep Visual Domain Adaptation: A Survey
+Do Better ImageNet Models Transfer Better?
+CNN Features off-the-shelf: an Astounding Baseline for Recognition
+Taskonomy: Disentangling Task Transfer Learning
+Learning without forgetting
+Reinforcement Learning to Train Ms. Pac-Man Using Higher-order Action-relative Inputs
+Zero-Shot Transfer Learning for Event Extraction
+Learning a Deep Embedding Model for Zero-Shot Learning
+Transfer Learning via Learning to Transfer
+Deep Convolutional Neural Networks forComputer-Aided Detection: CNN Architectures, Dataset Characteristics and Transfer Learning
+Convolutional Neural Networks for Medical Image Analysis: Full Training or Fine Tuning?
+Comparison of deep transfer learning strategies for digital pathology
+A Deep Convolutional Neural Network for Location Recognition and Geometry Based Information
+A theory of learning from different domains
+Domain Adaptation with Multiple Sources
+Algorithms and Theory for Multiple-Source Adaptation
+Domain-Adversarial Training of Neural Networks
+Deep Transfer Learning with Joint Adaptation Networks
+Coupled Generative Adversarial Networks
+Deep Reconstruction-Classification Networks for Unsupervised Domain Adaptation
+Domain Separation Networks
+Adaptative Discriminative Domain Adaptation
+Generate To Adapt: Aligning Domains using Generative Adversarial Networks
+Wasserstein Distance Guided Representation Learning for Domain Adaptation
+CyCADA: Cycle-Consistent Adversarial Domain Adaptation
+A DIRT-T Approach to Unsupervised Domain Adaptation
+Duplex Generative Adversarial Network for Unsupervised Domain Adaptation
+Learning Semantic Representations for Unsupervised Domain Adaptation
+Deep Identity-aware Transfer of Facial Attributes
+Image-to-Image Translation with Conditional Adversarial Networks
+Unsupervised Cross-domain Image Generation
+Learning from Simulated and Unsupervised Images through Adversarial Training (2016)
+Unsupervised Pixel–Level Domain Adaptation with Generative Adversarial Networks
+Unsupervised Image-to-Image Translation Networks
+Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks
+Learning to Discover Cross-Domain Relations with Generative Adversarial Networks
+DualGAN: Unsupervised Dual Learning for Image-to-Image Translation
+From source to target and back: symmetric bi-directional adaptive GAN
+One-Sided Unsupervised Domain Mapping
+High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs
+Image to Image Translation for Domain Adaptation
+Multimodal Unsupervised Image-to-Image Translation
+StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation
+XGAN: Unsupervised Image-to-Image Translation for Many-to-Many Mappings
+Toward Multimodal Image-to-Image Translation
+Label Efficient Learning of Transferable Representations across Domains and Tasks
+ComboGAN: Unrestrained Scalability for Image Domain Translation
+Augmented CycleGAN: Learning Many-to-Many Mappings from Unpaired Data
+RadialGAN: Leveraging multiple datasets to improve target-specific predictive models using Generative Adversarial Networks
+Multi-Adversarial Domain Adaptation
+Multiple Source Domain Adaptation with Adversarial Learning
+Unsupervised Domain Adaptation for Face Recognition in Unlabeled Videos
+Recycle-GAN: Unsupervised Video Retargeting
+Video-to-Video Synthesis
+Everybody Dance Now
+Optimal Transport for Domain Adaptation
+Theoretical Analysis of Domain Adaptation with Optimal Transport
+Joint distribution optimal transportation for domain adaptation
+Large Scale Optimal Transport and Mapping Estimation
+Optimal Transport for Multi-source Domain Adaptation under Target Shift
+DeepJDOT: Deep Joint distribution optimal transport for unsupervised domain adaptation
+Unsupervised Domain Adaptation for Zero-Shot Learning
+Associative Domain Adaptation
+Covariate Shift in Hilbert Space: A Solution via Surrogate Kernels
+Learning Transferable Features with Deep Adaptation Networks
+Unsupervised Domain Adaptation with Residual Transfer Networks
+A Simple Approach for Unsupervised Domain Adaptation
+Learning Classifiers from Synthetic Data Using a Multichannel Autoencoder
+Learning from Synthetic Data Using a Stacked Multichannel Autoencoder
+Domain Adaptation for Object Recognition: An Unsupervised Approach
+Geodesic Flow Kernel for Unsupervised Domain Adaptation
+Unsupervised Visual Domain Adaptation Using Subspace Alignment
+Return of Frustratingly Easy Domain Adaptation
+Deep CORAL: Correlation Alignment for Deep Domain Adaptation
+Learning an Invariant Hilbert Space for Domain Adaptation
+Correlation Alignment by Riemannian Metric for Domain Adaptation
+Self-ensembling for domain adaptation
+Adapting Visual Category Models to New Domains
+Revisiting Batch Normalization for Practical Domain Adaptation
+Semi-Supervised Domain Adaptation with Instance Constraints
+Co-regularization Based Semi-supervised Domain Adaptation
+Semi-supervised Domain Adaptation with Subspace Learning for Visual Recognition
+Semi-Supervised Domain Adaptation with Non-Parametric Copulas
+Few-Shot Adversarial Domain Adaptation
+Augmented Cyclic Adversarial Learning for Domain Adaptation
+Unified Deep Supervised Domain Adaptation and Generalization
+Learning to Pivot with Adversarial Networks
+Adversarial Domain Adaptation for Identifying Phase Transitions
+Identifying Quantum Phase Transitions with Adversarial Neural Networks
+Automated discovery of characteristic features of phase transitions in many-body localization
+Autoencoder-based Unsupervised Domain Adaptation for Speech Emotion Recognition
+Adversarial Teacher-Student Learning for Unsupervised Domain Adaptation
