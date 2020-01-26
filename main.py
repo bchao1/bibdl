@@ -228,10 +228,13 @@ if __name__ == '__main__':
     parser.add_argument('--bib', type = str, default = './refs.bib')
     args = parser.parse_args()
 
-    if args.title is not None and args.list is not none:
-        print("Specify search by file or by single title")
-    bibsearch = BibSearch(args.max_results)
-    if args.title:
-        bib = bibsearch.search_single(' '.join(args.title))
-    elif args.list:
-        bibs = bibsearch.search_from_file(args.list, args.bib)
+    if args.title is not None and args.list is not None:
+        print("Choose to search by paper list or by single title.")
+    elif args.title is None and args.list is None:
+        print("Specify to search by paper list or by single title.")
+    else:
+        bibsearch = BibSearch(args.max_results)
+        if args.title:
+            bib = bibsearch.search_single(' '.join(args.title))
+        elif args.list:
+            bibs = bibsearch.search_from_file(args.list, args.bib)
