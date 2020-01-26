@@ -1,7 +1,7 @@
 from argparse import ArgumentParser
 from .Search import BibSearch
 
-if __name__ == '__main__':
+def main():
     parser = ArgumentParser()
     parser.add_argument('-t', '--title', type = str, nargs = '+', help = "Title of paper.")
     parser.add_argument('--max_results', type = int, default = 10000)
@@ -19,3 +19,6 @@ if __name__ == '__main__':
             bib = bibsearch.search_single(' '.join(args.title))
         elif args.list:
             bibs = bibsearch.search_from_file(args.list, args.bib)
+
+if __name__ == '__main__':
+    main()
