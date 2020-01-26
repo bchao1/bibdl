@@ -3,10 +3,10 @@ from .Search import BibSearch
 
 def main():
     parser = ArgumentParser()
-    parser.add_argument('-t', '--title', type = str, nargs = '+', help = "Title of paper.")
-    parser.add_argument('--max_results', type = int, default = 10000)
-    parser.add_argument('-l', '--list', type = str, default = './list.txt')
-    parser.add_argument('--bib', type = str, default = './refs.bib')
+    parser.add_argument('-t', '--title', type = str, nargs = '+', help = "Title of paper to search.")
+    parser.add_argument('--max_results', type = int, default = 1000, help = "Mex return results for arXiv API.")
+    parser.add_argument('-l', '--list', type = str, default = './list.txt', help = "Paper list to search.")
+    parser.add_argument('--bib', type = str, default = './refs.bib', help = "Output reference .bib file.")
     args = parser.parse_args()
 
     if args.title is not None and args.list is not None:

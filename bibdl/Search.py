@@ -6,13 +6,13 @@ from bs4 import BeautifulSoup
 from multiprocessing import Pool
 from termcolor import colored
 from .utils import normalize
+import sys
 
 class ArxivSearch:
     def __init__(self, max_results):
         self.max_results = max_results
         self.search_url = 'http://export.arxiv.org/api/query?' + \
                           'search_query=all:{}&' + \
-                          'sortBy=relevance&' + \
                           'start=0&' + \
                           'max_results=' + str(self.max_results)
     
@@ -202,10 +202,14 @@ class BibSearch:
 
     def read_titles_file(self, filename):
         titles = []
-        with open(filename, 'r') as file:
-            for line in file:
-                titles.append(line.strip())
-        return titles
+        try:
+            with open(filename, 'r') as file:
+                for line in file:
+                    titles.append(line.strip())
+            return titles
+        except Exception as e:
+            print(e)
+            sys.exit(1)
 
     def search_multiple(self, titles, outbib):
         pool = Pool(processes = len(titles))

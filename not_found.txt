@@ -1,0 +1,29 @@
+A Survey on Transfer Learning
+Transfer Learning for Reinforcement Learning Domains: A Survey
+A Survey of transfer learning
+Reinforcement Learning to Train Ms. Pac-Man Using Higher-order Action-relative Inputs
+Transfer Learning via Learning to Transfer
+Comparison of deep transfer learning strategies for digital pathology
+A Deep Convolutional Neural Network for Location Recognition and Geometry Based Information
+A theory of learning from different domains
+Domain Adaptation with Multiple Sources
+Domain-Adversarial Training of Neural Networks
+Adaptative Discriminative Domain Adaptation
+Unsupervised Cross-domain Image Generation
+Learning from Simulated and Unsupervised Images through Adversarial Training (2016)
+Unsupervised Pixel–Level Domain Adaptation with Generative Adversarial Networks
+ComboGAN: Unrestrained Scalability for Image Domain Translation
+Unsupervised Domain Adaptation for Zero-Shot Learning
+Covariate Shift in Hilbert Space: A Solution via Surrogate Kernels
+A Simple Approach for Unsupervised Domain Adaptation
+Domain Adaptation for Object Recognition: An Unsupervised Approach
+Geodesic Flow Kernel for Unsupervised Domain Adaptation
+Unsupervised Visual Domain Adaptation Using Subspace Alignment
+Self-ensembling for domain adaptation
+Adapting Visual Category Models to New Domains
+Semi-Supervised Domain Adaptation with Instance Constraints
+Semi-supervised Domain Adaptation with Subspace Learning for Visual Recognition
+Augmented Cyclic Adversarial Learning for Domain Adaptation
+Adversarial Domain Adaptation for Identifying Phase Transitions
+Autoencoder-based Unsupervised Domain Adaptation for Speech Emotion Recognition
+Adversarial Teacher-Student Learning for Unsupervised Domain Adaptation
