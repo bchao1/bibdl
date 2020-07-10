@@ -4,6 +4,7 @@ Reinforcement Learning to Train Ms. Pac-Man Using Higher-order Action-relative I
 A Deep Convolutional Neural Network for Location Recognition and Geometry Based Information
 Domain-Adversarial Training of Neural Networks
 Adaptative Discriminative Domain Adaptation
+Image-to-Image Translation with Conditional Adversarial Networks
 XGAN: Unsupervised Image-to-Image Translation for Many-to-Many Mappings
 Multiple Source Domain Adaptation with Adversarial Learning
 Covariate Shift in Hilbert Space: A Solution via Surrogate Kernels

@@ -3,6 +3,7 @@
 from multiprocessing import Pool
 from termcolor import colored
 import sys
+import collections
 
 from .search import ArxivSearch, \
                 PapersWithCodeSearch, \
@@ -10,14 +11,17 @@ from .search import ArxivSearch, \
                 OpenReviewSearch
 
 class BibSearch:
-    def __init__(self, max_results):
-        self.max_results = max_results
-        self.engines = {
-            'open-review': OpenReviewSearch(),
-            #'papers-with-code': PapersWithCodeSearch(),
-            #'nips-web': NIPSSearch(),
-            'arxiv': ArxivSearch(max_results),
-        }
+    def __init__(self, args):
+        self.max_results = args.max_results
+        self.engines = collections.OrderedDict()
+
+        # Make search engines
+        self.engines['open-review'] = OpenReviewSearch()
+        if args.pwc:
+            self.engines['papers-with-code'] = PapersWithCodeSearch()
+        if args.nips:
+            self.engines['nips-web'] = NIPSSearch()
+        self.engines['arxiv'] = ArxivSearch(self.max_results)
 
     def show_search_status(self, results):
         found = len(results) - results.count(None)
