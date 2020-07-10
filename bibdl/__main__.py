@@ -1,5 +1,5 @@
 from argparse import ArgumentParser
-from .Search import BibSearch
+from . import BibSearch
 
 def main():
     parser = ArgumentParser()

@@ -29,6 +29,8 @@ If you get most of your paper titles right, (usually) the script finds 70% or mo
 ## Sources
 - arXiv
 - Papers with Code
+- NIPS proceedings page
 
 ## TODO
-- Add dblp support (but dblp's API works badly...)
+- Semantics Scholar
+- IEEE Explore (need key)

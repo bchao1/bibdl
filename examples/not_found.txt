@@ -6,7 +6,6 @@ Transfer Learning via Learning to Transfer
 Comparison of deep transfer learning strategies for digital pathology
 A Deep Convolutional Neural Network for Location Recognition and Geometry Based Information
 A theory of learning from different domains
-Domain Adaptation with Multiple Sources
 Domain-Adversarial Training of Neural Networks
 Adaptative Discriminative Domain Adaptation
 Unsupervised Cross-domain Image Generation
@@ -26,4 +25,3 @@ Semi-supervised Domain Adaptation with Subspace Learning for Visual Recognition
 Augmented Cyclic Adversarial Learning for Domain Adaptation
 Adversarial Domain Adaptation for Identifying Phase Transitions
 Autoencoder-based Unsupervised Domain Adaptation for Speech Emotion Recognition
-Adversarial Teacher-Student Learning for Unsupervised Domain Adaptation
