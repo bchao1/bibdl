@@ -17,11 +17,11 @@ python3 -m pip install .
 ```
 bibdl --list list.txt --bib refs.bib
 ```
-List all paper titles in `list.txt`. `bibdl` will spawn multiple processes to search for the papers on arXiv and paperswithcode.com and generate BibTeX style references in `refs.bib`.
+List all paper titles in `list.txt`. `bibdl` will spawn multiple processes to search for the papers on pre-defined sources and generate BibTeX style references in `refs.bib`.
    
 Papers that are not found will be listed in `not_found.txt`. You'll have to manually find references for those papers.
 
-For more reference, type
+For more help, type
 ```
 bidbl -h
 ```
