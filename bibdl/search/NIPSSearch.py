@@ -53,7 +53,7 @@ class NIPSSearch:
             return {
                 'title': title,
                 'authors': authors,
-                'conf': 'NIPS',
+                'conf': 'NeurIPS',
                 'year': year
             }
         except:

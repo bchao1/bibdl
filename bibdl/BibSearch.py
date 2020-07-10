@@ -6,15 +6,17 @@ import sys
 
 from .search import ArxivSearch, \
                 PapersWithCodeSearch, \
-                NIPSSearch
+                NIPSSearch, \
+                OpenReviewSearch
 
 class BibSearch:
     def __init__(self, max_results):
         self.max_results = max_results
         self.engines = {
+            'open-review': OpenReviewSearch(),
+            #'papers-with-code': PapersWithCodeSearch(),
+            #'nips-web': NIPSSearch(),
             'arxiv': ArxivSearch(max_results),
-            'papers-with-code': PapersWithCodeSearch(),
-            'nips-web': NIPSSearch()
         }
 
     def show_search_status(self, results):
@@ -30,11 +32,10 @@ class BibSearch:
             print('[' + colored('✗', 'red', attrs = ['bold']) + ']  ' + title)
 
     def choose_bib(self, bibs):
-        bib = None
-        for b in bibs[::-1]:
+        for b in bibs:
             if b is not None:
-                bib = b
-        return bib
+                return b
+        return None
 
     def search_single_seq(self, title):
         ''' Sequentially search, no multiprocesses. '''

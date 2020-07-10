@@ -20,5 +20,6 @@ SOURCES = [
     'ieee-explore',
     'nips-web', # for nips
     'cvf-open-access', # for cvpr, eccv, iccv
-    'pmlr-web' # for icml, pmlr
+    'pmlr-web' # for icml, pmlr,
+    'open-review'
 ]
