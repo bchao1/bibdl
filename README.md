@@ -8,7 +8,7 @@
 ## Installation
 > Build locally. You can easily customize the code.
 ```
-git clone https://github.com/Mckinsey666/bibdl.git
+git clone https://github.com/bchao1/bibdl.git
 cd bibdl
 python3 -m pip install .
 ```
@@ -17,10 +17,14 @@ python3 -m pip install .
 ```
 bibdl --list list.txt --bib refs.bib
 ```
-List all paper titles in `list.txt`. `bibdl` will spawn multiple processes to search for the papers on arXiv and paperswithcode.com and generate BibTeX style references in `refs.bib`. 
+List all paper titles in `list.txt`. `bibdl` will spawn multiple processes to search for the papers on arXiv and paperswithcode.com and generate BibTeX style references in `refs.bib`.
    
 Papers that are not found will be listed in `not_found.txt`. You'll have to manually find references for those papers.
 
+For more reference, type
+```
+bidbl -h
+```
 ## Disclaimer
 This is not expected to be a search engine, so make sure you get your paper titles exactly right (or you might not be able to find anything). It's an ordeal looking for which conference a paper is submitted to, manually copying references, and finally formatting them, so just let the computer do their work. 
    
