@@ -41,5 +41,8 @@ For Speech/NLP papers, the hit rate might be lower since I did not implement sea
 - [Papers with Code](https://paperswithcode.com/) (optional)
 
 ## TODO
-- Semantics Scholar
-- IEEE Explore (need credentials)
+- Search Sources
+    - Semantics Scholar
+    - IEEE Explore (need credentials)
+- Multiprocessing to threading
+- SoupStrainer for html parsing
