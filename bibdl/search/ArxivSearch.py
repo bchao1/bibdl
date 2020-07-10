@@ -1,19 +1,18 @@
 # -*- coding: UTF-8 -*-
-
-import requests
 import feedparser
 from .utils import normalize
 
 class ArxivSearch:
-    def __init__(self, max_results):
+    def __init__(self, sess, max_results):
         self.max_results = max_results
         self.search_url = 'http://export.arxiv.org/api/query?' + \
                           'search_query=all:{}&' + \
                           'start=0&' + \
                           'max_results=' + str(self.max_results)
+        self.sess = sess
     
     def get_xml_feed(self, url):
-        return feedparser.parse(requests.get(url).text)
+        return feedparser.parse(self.sess.get(url).text)
 
     def get_authors(self, authors):
         return [a.name for a in authors]

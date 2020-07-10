@@ -5,12 +5,13 @@ from bs4 import BeautifulSoup
 from .utils import normalize
 
 class PapersWithCodeSearch:
-    def __init__(self):
+    def __init__(self, sess):
         self.base_url = 'https://paperswithcode.com'
         self.search_url = "https://paperswithcode.com/search?q="
+        self.sess = sess
     
     def get_soup(self, url):
-        return BeautifulSoup(requests.get(url).text, 'html.parser')
+        return BeautifulSoup(self.sess.get(url).text, 'html.parser')
 
     def get_title(self, soup):
         return soup.find('h1').text.strip()

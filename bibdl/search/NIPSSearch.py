@@ -5,17 +5,17 @@
 """
 
 from .utils import normalize
-import requests
 from bs4 import BeautifulSoup
 
 class NIPSSearch:
-    def __init__(self):
+    def __init__(self, sess):
         self.base_url = 'https://papers.nips.cc'
         self.search_url =  'https://papers.nips.cc/search?q='
+        self.sess = sess
     
     def search(self, title):
         query = '+'.join(title.split(' '))
-        res = requests.get(self.search_url + query)
+        res = self.sess.get(self.search_url + query)
         soup = BeautifulSoup(res.text, 'html.parser')
         papers = soup.findAll('li')
         entry = [p for p in papers if normalize(p.find('a').text.strip()) == normalize(title)]
@@ -29,7 +29,7 @@ class NIPSSearch:
         return self.gen_bib(data)
 
     def get_soup(self, url):
-        return BeautifulSoup(requests.get(url).text, 'html.parser')
+        return BeautifulSoup(self.sess.get(url).text, 'html.parser')
 
     def get_year(self, soup):
         year = soup.find('nav').findAll('li')[-1].text.strip()
