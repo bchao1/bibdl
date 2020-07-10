@@ -1,3 +1,0 @@
-urllib2
-bs4
-openreview

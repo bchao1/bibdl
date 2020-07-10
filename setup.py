@@ -12,6 +12,7 @@ setup(
         'termcolor',
         'feedparser',
         'beautifulsoup4',
+        'openreview-py',
     ],
     entry_points = {
         'console_scripts': [
