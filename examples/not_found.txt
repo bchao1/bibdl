@@ -1,12 +1,14 @@
 Transfer Learning for Reinforcement Learning Domains: A Survey
 A Survey of transfer learning
+Domain Adaptation for Visual Applications: A Comprehensive Survey
 Reinforcement Learning to Train Ms. Pac-Man Using Higher-order Action-relative Inputs
 A Deep Convolutional Neural Network for Location Recognition and Geometry Based Information
 Domain-Adversarial Training of Neural Networks
 Adaptative Discriminative Domain Adaptation
-Image-to-Image Translation with Conditional Adversarial Networks
+Unsupervised Cross-domain Image Generation
 XGAN: Unsupervised Image-to-Image Translation for Many-to-Many Mappings
 Multiple Source Domain Adaptation with Adversarial Learning
+Theoretical Analysis of Domain Adaptation with Optimal Transport
 Covariate Shift in Hilbert Space: A Solution via Surrogate Kernels
 A Simple Approach for Unsupervised Domain Adaptation
 Self-ensembling for domain adaptation
