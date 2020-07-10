@@ -3,6 +3,7 @@ A Survey of transfer learning
 Reinforcement Learning to Train Ms. Pac-Man Using Higher-order Action-relative Inputs
 A Deep Convolutional Neural Network for Location Recognition and Geometry Based Information
 Domain-Adversarial Training of Neural Networks
+Deep Reconstruction-Classification Networks for Unsupervised Domain Adaptation
 Adaptative Discriminative Domain Adaptation
 Unsupervised Cross-domain Image Generation
 XGAN: Unsupervised Image-to-Image Translation for Many-to-Many Mappings
@@ -13,3 +14,4 @@ Self-ensembling for domain adaptation
 Augmented Cyclic Adversarial Learning for Domain Adaptation
 Adversarial Domain Adaptation for Identifying Phase Transitions
 Autoencoder-based Unsupervised Domain Adaptation for Speech Emotion Recognition
+Adversarial Teacher-Student Learning for Unsupervised Domain Adaptation

@@ -52,7 +52,7 @@ class BibSearch:
         bibs = [e.search(title) for e in self.engines.values()]
         bib = self.choose_bib(bibs)
         self.show_bib_status(bib, title)
-        time.sleep(0.1)
+        #time.sleep(0.1)
         return bib
 
     def search_single(self, title):

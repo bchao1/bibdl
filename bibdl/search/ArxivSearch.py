@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 import feedparser
+import time
 from .utils import normalize
 
 class ArxivSearch:
@@ -53,6 +54,7 @@ class ArxivSearch:
         if not entry:
             return None
         data = self.get_entry_data(entry[0])
+        time.sleep(0.1)
         if not data:
             return None
         return self.gen_bib(data)

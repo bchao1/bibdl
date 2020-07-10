@@ -9,6 +9,7 @@ from .utils import normalize
 import requests
 from bs4 import BeautifulSoup
 import openreview
+import time
 
 class OpenReviewSearch:
     def __init__(self, sess):
@@ -29,6 +30,7 @@ class OpenReviewSearch:
             if not results:
                 return None
             data = results[0].content
+            time.sleep(0.1)
             return self.gen_bib(data)
         except Exception as e:
             return None
